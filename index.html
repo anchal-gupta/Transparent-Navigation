@@ -1,0 +1,145 @@
+<html>
+<body>
+<link rel="stylesheet">
+
+<style>
+body {
+ font-size: 18px;
+ background-image: url("scene.jpg");
+ height: 100%;
+ background-repeat: no-repeat;
+ background-size: cover; 
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.05);
+  text-color: black;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}  
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  padding: 14px 16px;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.05);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+<div class="navbar">
+   <div class="dropdown">
+    <button class="dropbtn">Home 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Privacy policy</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+  </div> 
+   <div class="dropdown">
+    <button class="dropbtn">Your Profile 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Your orders</a>
+      <a href="#">Your favorites</a>
+      <a href="#">Track your order</a>
+      <a href="#">Cart</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Menu
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Dosa</a>
+      <a href="#">Spring roll</a>
+      <a href="#">Manchurian</a>
+      <a href="#">Burger</a>
+      <a href="#">Rasmalai</a>
+      <a href="#">Chowmin</a>
+      <a href="#">Pasta</a>
+      <a href="#">Cakes</a>
+      <a href="#">Fried Rice</a>
+    </div>
+  </div> 
+    <div class="dropdown">
+    <button class="dropbtn">Restaurants
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Spicy Corner</a>
+      <a href="#">Veggie Hub</a>
+      <a href="#">Foodooz Pizza</a>
+      <a href="#">Take a Bite</a>
+      <a href="#">Indian Tadka</a>
+      <a href="#">Kashmiri Wala</a>
+      <a href="#">Marwari Taste</a>
+    </div>
+  </div> 
+    <div class="dropdown">
+    <button class="dropbtn">Price
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Dosa-80Rs</a>
+      <a href="#">Spring roll-40Rs</a>
+      <a href="#">Manchurian-50Rs</a>
+      <a href="#">Burger-30Rs</a>
+      <a href="#">Rasmalai-100Rs</a>
+      <a href="#">Chowmin-60-Rs</a>
+      <a href="#">Pasta-70Rs</a>
+      <a href="#">Cakes-250Rs</a>
+      <a href="#">Fried Rice-50Rs</a>
+    </div>
+  </div> 
+    <div class="dropdown">
+    <button class="dropbtn">Rate Us
+      <i class="fa fa-caret-down"></i>
+    </button>
+</div>
+</body>
+</html>
